@@ -1,0 +1,354 @@
+{
+  "restaurants": [
+    {
+      "name": "White Lotus Farms",
+      "phone": "+17347071284",
+      "price": "$$",
+      "rating": "5.0",
+      "review_count": "50"
+    },
+    {
+      "name": "Yaya's Pizza",
+      "phone": "+17345475226",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "33"
+    },
+    {
+      "name": "Ore Creek Craft Cider",
+      "phone": "+17347265562",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "14"
+    },
+    {
+      "name": "Erratic Ale Co",
+      "phone": "+17345456913",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "13"
+    },
+    {
+      "name": "Country Fair Market",
+      "phone": "+12483440022",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "8"
+    },
+    {
+      "name": "Issa's Pizza",
+      "phone": "+17349057076",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "5"
+    },
+    {
+      "name": "Mothfire Brewing",
+      "phone": "+17343696290",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "4"
+    },
+    {
+      "name": "Unicorn Market",
+      "phone": "+17347694342",
+      "price": null,
+      "rating": "5.0",
+      "review_count": "3"
+    },
+    {
+      "name": "Homes Brewery",
+      "phone": "+17349546637",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "323"
+    },
+    {
+      "name": "Detroit Street Filling Station",
+      "phone": "+17342248262",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "300"
+    },
+    {
+      "name": "Zingerman's Bakehouse",
+      "phone": "+17347612095",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "272"
+    },
+    {
+      "name": "Wolverine State Brewing Co",
+      "phone": "+17343692990",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "272"
+    },
+    {
+      "name": "Joe's Pizza",
+      "phone": "+17342135625",
+      "price": "$",
+      "rating": "4.5",
+      "review_count": "176"
+    },
+    {
+      "name": "Anthony's Gourmet Pizza",
+      "phone": "+17342132500",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "104"
+    },
+    {
+      "name": "Pizza Perfect",
+      "phone": "+17344858800",
+      "price": "$",
+      "rating": "4.5",
+      "review_count": "96"
+    },
+    {
+      "name": "Tippins Market",
+      "phone": "+17346653690",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "68"
+    },
+    {
+      "name": "Side Biscuit",
+      "phone": "+17345316777",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "53"
+    },
+    {
+      "name": "Stadium Market",
+      "phone": "+17347619650",
+      "price": "$$",
+      "rating": "4.5",
+      "review_count": "47"
+    },
+    {
+      "name": "Detroit Cookie",
+      "phone": "+17344120104",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "34"
+    },
+    {
+      "name": "La Piazza Pizza and subs",
+      "phone": "+17347807316",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "20"
+    },
+    {
+      "name": "Vegano Italiano",
+      "phone": "+17343402617",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "17"
+    },
+    {
+      "name": "Mama Pizza",
+      "phone": "+17348963843",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "15"
+    },
+    {
+      "name": "Stadium Deli & Wine Shop",
+      "phone": "+17346622885",
+      "price": "$",
+      "rating": "4.5",
+      "review_count": "11"
+    },
+    {
+      "name": "Mugg & Bopps",
+      "phone": "+17344264075",
+      "price": "$",
+      "rating": "4.5",
+      "review_count": "3"
+    },
+    {
+      "name": "Pizza Replicator",
+      "phone": "",
+      "price": null,
+      "rating": "4.5",
+      "review_count": "3"
+    },
+    {
+      "name": "Zingerman's Delicatessen",
+      "phone": "+17346633354",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "2527"
+    },
+    {
+      "name": "Jolly Pumpkin Cafe & Brewery",
+      "phone": "+17349132730",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "1020"
+    },
+    {
+      "name": "Mani Osteria & Bar",
+      "phone": "+17347696700",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "986"
+    },
+    {
+      "name": "Aventura",
+      "phone": "+17343693153",
+      "price": "$$$",
+      "rating": "4.0",
+      "review_count": "882"
+    },
+    {
+      "name": "Cardamom",
+      "phone": "+17346622877",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "535"
+    },
+    {
+      "name": "Salt Springs Brewery",
+      "phone": "+17342959191",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "392"
+    },
+    {
+      "name": "Metzger's German Restaurant",
+      "phone": "+17346688987",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "332"
+    },
+    {
+      "name": "Corner Brewery",
+      "phone": "+17344802739",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "254"
+    },
+    {
+      "name": "Buddy's Pizza - Ann Arbor",
+      "phone": "+17347929130",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "225"
+    },
+    {
+      "name": "The Boro",
+      "phone": "+17346693310",
+      "price": null,
+      "rating": "4.0",
+      "review_count": "151"
+    },
+    {
+      "name": "Thompson & Co.",
+      "phone": "+17344416200",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "147"
+    },
+    {
+      "name": "Mr Spots",
+      "phone": "+17347477768",
+      "price": "$",
+      "rating": "4.0",
+      "review_count": "146"
+    },
+    {
+      "name": "Hello Faz Pizza",
+      "phone": "+17347417777",
+      "price": "$",
+      "rating": "4.0",
+      "review_count": "114"
+    },
+    {
+      "name": "The Bar At 327 Braun Court",
+      "phone": "+17346662704",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "97"
+    },
+    {
+      "name": "Whitmore Lake Tavern",
+      "phone": "+17344495011",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "97"
+    },
+    {
+      "name": "Dixboro Project",
+      "phone": "+17346693310",
+      "price": null,
+      "rating": "4.0",
+      "review_count": "60"
+    },
+    {
+      "name": "Anthony's Gourmet Pizza",
+      "phone": "+17346622500",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "53"
+    },
+    {
+      "name": "Stony Lake Brewing Co",
+      "phone": "+17347574820",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "41"
+    },
+    {
+      "name": "Jolly Pumpkin Artisan Ales + Kitchen",
+      "phone": "+17347929124",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "41"
+    },
+    {
+      "name": "Marco's Pizza",
+      "phone": "+17349731750",
+      "price": "$",
+      "rating": "4.0",
+      "review_count": "36"
+    },
+    {
+      "name": "Riverside Pizza",
+      "phone": "+17344260800",
+      "price": "$",
+      "rating": "4.0",
+      "review_count": "33"
+    },
+    {
+      "name": "Wings N Things",
+      "phone": "+17344267754",
+      "price": null,
+      "rating": "4.0",
+      "review_count": "28"
+    },
+    {
+      "name": "C King &  Cafe",
+      "phone": "+17345109871",
+      "price": null,
+      "rating": "4.0",
+      "review_count": "27"
+    },
+    {
+      "name": "Benito's Pizza",
+      "phone": "+17344613100",
+      "price": "$$",
+      "rating": "4.0",
+      "review_count": "19"
+    },
+    {
+      "name": "Thompson Bar & Grill",
+      "phone": "+17349222327",
+      "price": "$",
+      "rating": "4.0",
+      "review_count": "13"
+    }
+  ]
+}
