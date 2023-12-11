@@ -12,7 +12,7 @@ To run this program, make sure you have the following python package installed, 
 1. This program consists of two main parts: yelp fusion api and delivery. The yelp fusion api allows you to find information about restaurants nearby and the delivery program allows you to find restaurants providing food delivery service.
 2. To run this function please type `python find_restaurants.py`: It will give you options to choose from, by poping up the message "Enter 'delivery' for delivery.com or 'yelp' for Yelp: ". </br>
 You can either choose to interact with the yelp by typing "yelp" or interact with the delivery app by typing "delivery". </br>
-3. The API key for yelp has been included in the yelp_fusion_api_wrap file. You donnot need to generate an api key on your own. However, there are possibilities that the api key access the use limit. In this case, you need to generate an api key on your own and replace the old one with your own api key. The website for API key generation is "https://www.yelp.com/developers/v3/manage_app"
+3. The API key for yelp has been included in the yelp_fusion_api_wrap file. You donot need to generate an api key on your own. However, there are possibilities that the api key access the use limit. In this case, you need to generate an api key on your own and replace the old one with your own api key. The website for API key generation is "https://www.yelp.com/developers/v3/manage_app"
 ### Guidelines for using yelp fusion api app:
 1. The yelp fusion api prompts you to enter the search key words, search address
 2. It returns with you a list of restaurants nearby with the restaurant information: 'name', 'phone', 'price', 'rating','review_count'.
