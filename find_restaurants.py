@@ -13,11 +13,11 @@ def main():
         if user_choice.lower() == 'delivery':
             delivery()
             app.run(debug=False)
-            if input("Do you want to try another option? (yes/no): ").lower() != 'yes':
+            if input("Do you want to try another app? (yes/no): ").lower() != 'yes':
                 break
         elif user_choice.lower() == 'yelp':
             yelp(api_key)
-            if input("Do you want to try another option? (yes/no): ").lower() != 'yes':
+            if input("Do you want to try another app? (yes/no): ").lower() != 'yes':
                 break
         else:
             print("Invalid choice. Please enter 'delivery' or 'yelp'.")

@@ -1,15 +1,35 @@
 # SI507_final_project
-Readme for checkpoint
-### At the checkpoint, I obtain the sample data from the Internet.
-#### In the first part, I used the Yelp fusion API.
-I get the information of restaurants with Yelp API with sample search term "pizza" and sample location "1851 Lake Lila Ln" so users can get the information of pizza restaurant nearby the location, this part is for users who have time to eat in the restaurant. 
-1. The result is stored in cache and stored as a tree.
-2. There are several fields for a restaurant: name, phone, price, rating and review count.
-3. The key for inserting node is restaurant rating.
-4. In the display part, I used in order traversal, so readers can have the data sorted by ratings. Also, the restaurant with same rating but higher review count will be displayed first.
-#### In the second part, I scarpped the food delivery website. 
-The url I am scrapping is "https://www.delivery.com/search/food/address=3700%20Earhart%20Rd,%2048105&page=1&per_page=24&orderType=delivery&orderTime=2023-11-20T12:30:00Z&keyword=fast%20food&filter_categories=restaurant". Users can visit this website and access delivery and pickup information about restaurants nearby. This part is for users who are hurrying for their business and have no time sit in the restaurant to eat.
-1. I used session to visit the website because it uses javascript to dynamically load the data. 
-2. I used binary search tree to store my data, The key for inserting node is distance.
-3. For one restaurant, there are several fields: name, rating, distance, delivery fee, minimum order and delivery time.
-4. In the display part, I used in order traversal, so readers can have the data sorted by ratings. The restaurant with same rating but higher review count will be displayed first.
+Readme for final submission </br>
+### Prerequisite
+To run this program, make sure you have the following python package installed, if not please use the following commands in your console to install packages:
+1. yelpapi: `pip install yelpapi`
+2. webbrowser: `pip install webbrowser` 
+3. folium: `pip install folium`
+4. flask: `pip install flask`
+5. Beautifulsoup4:  `pip install Beautifulsoup4`
+6. Request_html: `pip install requests_html` </br>
+### How to run this program?
+1. This program consists of two main parts: yelp fusion api and delivery. The yelp fusion api allows you to find information about restaurants nearby and the delivery program allows you to find restaurants providing food delivery service.
+2. To run this function please type `python find_restaurants.py`: It will give you options to choose from, by poping up the message "Enter 'delivery' for delivery.com or 'yelp' for Yelp: ". </br>
+You can either choose to interact with the yelp by typing "yelp" or interact with the delivery app by typing "delivery". </br>
+3. The API key for yelp has been included in the yelp_fusion_api_wrap file. You donot need to generate an api key on your own. However, there are possibilities that the api key access the use limit. In this case, you need to generate an api key on your own and replace the old one with your own api key. The website for API key generation is "https://www.yelp.com/developers/v3/manage_app"
+### Guidelines for using yelp fusion api app:
+1. The yelp fusion api prompts you to enter the search key words, search address
+2. It returns with you a list of restaurants nearby with the restaurant information: 'name', 'phone', 'price', 'rating','review_count'.
+3. It then generates a heatmap using folium. The program automatically opens the html for the heatmap. You can find the places with most restaurants with warmest color.
+4. Then return to your console, the yelp app will allow you to choose whether you want the detail page of a certain restaurant.
+5. If you choose yes, please enter the restaurant index you are interested in the restaurant list previously shown in your console.
+6. It will then open the yelp page for this restaurant in a web browser.
+7. If you choose no, you would exit this app, and the main program will ask you to choose whether you want to use the delivery app.
+### Guidelines for using delivery app:
+1. The delivery app prompts you to enter the search address, type:delivery or pickup and your preferred time. <strong>*****Please type only street address in the Ann Arbor*****</strong>.  If your address does not work, please try with sample address: <br>
+Sample address: `1851 Lake Lila Lane`
+Sample zipcode: `48105`
+2. It then opens a webpage and allows you to view the information of the restaurants: Name, Rating, Distance, Delivery Fee, Minimum Order and Delivery Time in an HTML table form. <br>
+### Data Structure:
+All resturant data are stored as a binary tree structure. with a left node and a right node.
+1. The yelp fusion app first reads data from the yelp app, then it inserts node into a tree with key being the ratings of each restaurant. For simpler use, the tree data are using a traverse store into a json file called [restaurant_yelp_tree.json](restaurant_yelp_tree.json), the restaurant with highest ratings are listed first in the json dictionary.
+2. The delivery app first scrap data from the https://www.delivery.com/search/food/ website, then it stores the restaurant data into a tree structure. The key for inserting node is the distance attribute. The hierachal tree structure is then stored in a json file. In order traverse is used to access the data in the json file called [restaurant_delivery_tree.json](restaurant_delivery_tree.json)
+
+
+
