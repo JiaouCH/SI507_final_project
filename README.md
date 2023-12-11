@@ -26,6 +26,7 @@ You can either choose to interact with the yelp by typing "yelp" or interact wit
 Sample address: `1851 Lake Lila Lane`
 Sample zipcode: `48105`
 2. It then opens a webpage and allows you to view the information of the restaurants: Name, Rating, Distance, Delivery Fee, Minimum Order and Delivery Time in an HTML table form. <br>
+3. It also prints a restaurant list sorted by the distance in the console and a structure representing the restaurant tree.
 ### Data Structure:
 All resturant data are stored as a binary tree structure. with a left node and a right node.
 1. The yelp fusion app first reads data from the yelp app, then it inserts node into a tree with key being the ratings of each restaurant. For simpler use, the tree data are using a traverse store into a json file called [restaurant_yelp_tree.json](restaurant_yelp_tree.json), the restaurant with highest ratings are listed first in the json dictionary.
