@@ -22,7 +22,7 @@ You can either choose to interact with the yelp by typing "yelp" or interact wit
 6. It will then open the yelp page for this restaurant in a web browser.
 7. If you choose no, you would exit this app, and the main program will ask you to choose whether you want to use the delivery app.
 ### Guidelines for using delivery app:
-1. The delivery app prompts you to enter the search address, type:delivery or pickup and your preferred time. <trong>Please type only street address in the Ann Arbor</strong>.  If your address does not work, please try with sample address: <br>
+1. The delivery app prompts you to enter the search address, type:delivery or pickup and your preferred time. <strong>Please type only street address in the Ann Arbor</strong>.  If your address does not work, please try with sample address: <br>
 Sample address: `1851 Lake Lila Lane`
 Sample zipcode: `48105`
 2. It then opens a webpage and allows you to view the information of the restaurants: Name, Rating, Distance, Delivery Fee, Minimum Order and Delivery Time in an HTML table form. <br>
