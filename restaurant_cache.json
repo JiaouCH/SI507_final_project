@@ -1,1 +1,58 @@
-{"Potbelly Sandwich Works": {"Rating": 0, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Namaste Flavours Arbor": {"Rating": 4, "Distance": "4.5", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Siam Square": {"Rating": 3, "Distance": "4.6", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Tian Chu": {"Rating": 0, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Pita Kabob Grill": {"Rating": 3, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Pizza House": {"Rating": 4, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Breakfast House": {"Rating": 4, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Ann Arbor Wing Company": {"Rating": 4, "Distance": "4.3", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}, "Crepe Nation": {"Rating": 5, "Distance": "4.5", "Delivery Fee": "$4.49", "Minimum Order": "$10", "Delivery Time": null}}
+{
+  "Potbelly Sandwich Works": {
+    "Rating": 0,
+    "Distance": "1.9",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Namaste Flavours Arbor": {
+    "Rating": 4,
+    "Distance": "2.1",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Tmaz Taqueria-West Ann Arbor": {
+    "Rating": 0,
+    "Distance": "3.4",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Shish Palace": {
+    "Rating": 0,
+    "Distance": "4.7",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Zoup!": {
+    "Rating": 0,
+    "Distance": "0.5",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Al Yemen Kitchen": {
+    "Rating": 0,
+    "Distance": "4.7",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Moe'z Famous Cheesesteaks & Burgers": {
+    "Rating": 0,
+    "Distance": "4.7",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "Applebee's": {
+    "Rating": 3,
+    "Distance": "4.9",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  }
+}

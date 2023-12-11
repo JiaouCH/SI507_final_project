@@ -1,0 +1,89 @@
+{
+  "restaurant": {
+    "Restaurant Name": "Potbelly Sandwich Works",
+    "Rating": 0,
+    "Distance": "1.9",
+    "Delivery_Fee": "$4.49",
+    "Minimum_Order": "$10",
+    "Delivery_Time": null
+  },
+  "left": {
+    "restaurant": {
+      "Restaurant Name": "Zoup!",
+      "Rating": 0,
+      "Distance": "0.5",
+      "Delivery_Fee": "$4.49",
+      "Minimum_Order": "$10",
+      "Delivery_Time": null
+    },
+    "left": null,
+    "right": null
+  },
+  "right": {
+    "restaurant": {
+      "Restaurant Name": "Namaste Flavours Arbor",
+      "Rating": 4,
+      "Distance": "2.1",
+      "Delivery_Fee": "$4.49",
+      "Minimum_Order": "$10",
+      "Delivery_Time": null
+    },
+    "left": null,
+    "right": {
+      "restaurant": {
+        "Restaurant Name": "Tmaz Taqueria-West Ann Arbor",
+        "Rating": 0,
+        "Distance": "3.4",
+        "Delivery_Fee": "$4.49",
+        "Minimum_Order": "$10",
+        "Delivery_Time": null
+      },
+      "left": null,
+      "right": {
+        "restaurant": {
+          "Restaurant Name": "Shish Palace",
+          "Rating": 0,
+          "Distance": "4.7",
+          "Delivery_Fee": "$4.49",
+          "Minimum_Order": "$10",
+          "Delivery_Time": null
+        },
+        "left": {
+          "restaurant": {
+            "Restaurant Name": "Al Yemen Kitchen",
+            "Rating": 0,
+            "Distance": "4.7",
+            "Delivery_Fee": "$4.49",
+            "Minimum_Order": "$10",
+            "Delivery_Time": null
+          },
+          "left": {
+            "restaurant": {
+              "Restaurant Name": "Moe'z Famous Cheesesteaks & Burgers",
+              "Rating": 0,
+              "Distance": "4.7",
+              "Delivery_Fee": "$4.49",
+              "Minimum_Order": "$10",
+              "Delivery_Time": null
+            },
+            "left": null,
+            "right": null
+          },
+          "right": null
+        },
+        "right": {
+          "restaurant": {
+            "Restaurant Name": "Applebee's",
+            "Rating": 3,
+            "Distance": "4.9",
+            "Delivery_Fee": "$4.49",
+            "Minimum_Order": "$10",
+            "Delivery_Time": null
+          },
+          "left": null,
+          "right": null
+        }
+      }
+    }
+  }
+}
