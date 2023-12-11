@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Details</title>
+</head>
+<body>
+    <h1>Restaurant Details</h1>
+    <table border="1">
+        <tr>
+            <th>Restaurant Name</th>
+            <th>Rating</th>
+            <th>Distance</th>
+            <th>Delivery Fee</th>
+            <th>Minimum Order</th>
+            <th>Delivery Time</th>
+        </tr>
+        {% for key, value in restaurants.items() %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ value.Rating }}</td>
+            <td>{{ value.Distance }}</td>
+            <td>{{ value.Delivery_Fee }}</td>
+            <td>{{ value.Minimum_Order }}</td>
+            <td>{{ value.Delivery_Time }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
