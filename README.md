@@ -28,8 +28,8 @@ Sample zipcode: `48105`
 2. It then opens a webpage and allows you to view the information of the restaurants: Name, Rating, Distance, Delivery Fee, Minimum Order and Delivery Time in an HTML table form. <br>
 ### Data Structure:
 All resturant data are stored as a binary tree structure. with a left node and a right node.
-1. The yelp fusion app first reads data from the yelp app, then it inserts node into a tree with key being the ratings of each restaurant. For simpler use, the tree data are using a traverse store into a json file called [restaurant_yelp_tree.json][restaurant_yelp_tree.json], the restaurant with highest ratings are listed first in the json dictionary.
-2. The delivery app first scrap data from the https://www.delivery.com/search/food/ website, then it stores the restaurant data into a tree structure. The key for inserting node is the distance attribute. The hierachal tree structure is then stored in a json file. In order traverse is used to access the data in the json file called [restaurant_delivery_tree.json][restaurant_delivery_tree.json]
+1. The yelp fusion app first reads data from the yelp app, then it inserts node into a tree with key being the ratings of each restaurant. For simpler use, the tree data are using a traverse store into a json file called [restaurant_yelp_tree.json](restaurant_yelp_tree.json), the restaurant with highest ratings are listed first in the json dictionary.
+2. The delivery app first scrap data from the https://www.delivery.com/search/food/ website, then it stores the restaurant data into a tree structure. The key for inserting node is the distance attribute. The hierachal tree structure is then stored in a json file. In order traverse is used to access the data in the json file called [restaurant_delivery_tree.json](restaurant_delivery_tree.json)
 
 
 
