@@ -573,6 +573,19 @@
       "index": 44
     },
     {
+      "name": "The Earle Restaurant",
+      "phone": "+17349940211",
+      "price": "$$$",
+      "rating": "4.0",
+      "review_count": "364",
+      "url": "https://www.yelp.com/biz/the-earle-restaurant-ann-arbor?adjust_creative=hFCJaDSM2gzKHeEI8KFk_Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hFCJaDSM2gzKHeEI8KFk_Q",
+      "coordinates": {
+        "latitude": 42.2803591,
+        "longitude": -83.7488956
+      },
+      "index": 45
+    },
+    {
       "name": "The Ravens Club",
       "phone": "+17342140400",
       "price": "$$",
@@ -583,7 +596,7 @@
         "latitude": 42.28017,
         "longitude": -83.74819
       },
-      "index": 45
+      "index": 46
     },
     {
       "name": "Toarmina\u2019s Pizza - Ypsilanti",
@@ -596,7 +609,7 @@
         "latitude": 42.247694,
         "longitude": -83.637462
       },
-      "index": 46
+      "index": 47
     },
     {
       "name": "Zingerman's Roadhouse",
@@ -608,19 +621,6 @@
       "coordinates": {
         "latitude": 42.2804461,
         "longitude": -83.7805119
-      },
-      "index": 47
-    },
-    {
-      "name": "Ashley's Restaurant",
-      "phone": "+17349969191",
-      "price": "$$",
-      "rating": "3.5",
-      "review_count": "472",
-      "url": "https://www.yelp.com/biz/ashleys-restaurant-ann-arbor-3?adjust_creative=hFCJaDSM2gzKHeEI8KFk_Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hFCJaDSM2gzKHeEI8KFk_Q",
-      "coordinates": {
-        "latitude": 42.27808,
-        "longitude": -83.74114
       },
       "index": 48
     },
